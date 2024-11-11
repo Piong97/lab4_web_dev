@@ -5,8 +5,8 @@
 		<button onclick="checkInput()">Check</button>
 		<script>
 			function checkInput(){
-				let num = document.getElementById('userInput').value;
-				if (isNaN(userInput) || userInput === "") {
+				var num = document.getElementById('userInput').value;
+				if (isNaN(num) || num ==="") {
 					alert("Please insert a number!");
 				}else{
 					if(num<10){
